@@ -1,0 +1,13 @@
+C:\Users\02483838\source\repos\StackKaanBedel\StackKaanBedel\obj\Debug\netcoreapp3.1\StackKaanBedel.csprojAssemblyReference.cache
+C:\Users\02483838\source\repos\StackKaanBedel\StackKaanBedel\obj\Debug\netcoreapp3.1\StackKaanBedel.AssemblyInfoInputs.cache
+C:\Users\02483838\source\repos\StackKaanBedel\StackKaanBedel\obj\Debug\netcoreapp3.1\StackKaanBedel.AssemblyInfo.cs
+C:\Users\02483838\source\repos\StackKaanBedel\StackKaanBedel\obj\Debug\netcoreapp3.1\StackKaanBedel.csproj.CoreCompileInputs.cache
+C:\Users\02483838\source\repos\StackKaanBedel\StackKaanBedel\bin\Debug\netcoreapp3.1\StackKaanBedel.exe
+C:\Users\02483838\source\repos\StackKaanBedel\StackKaanBedel\bin\Debug\netcoreapp3.1\StackKaanBedel.deps.json
+C:\Users\02483838\source\repos\StackKaanBedel\StackKaanBedel\bin\Debug\netcoreapp3.1\StackKaanBedel.runtimeconfig.json
+C:\Users\02483838\source\repos\StackKaanBedel\StackKaanBedel\bin\Debug\netcoreapp3.1\StackKaanBedel.runtimeconfig.dev.json
+C:\Users\02483838\source\repos\StackKaanBedel\StackKaanBedel\bin\Debug\netcoreapp3.1\StackKaanBedel.dll
+C:\Users\02483838\source\repos\StackKaanBedel\StackKaanBedel\bin\Debug\netcoreapp3.1\StackKaanBedel.pdb
+C:\Users\02483838\source\repos\StackKaanBedel\StackKaanBedel\obj\Debug\netcoreapp3.1\StackKaanBedel.dll
+C:\Users\02483838\source\repos\StackKaanBedel\StackKaanBedel\obj\Debug\netcoreapp3.1\StackKaanBedel.pdb
+C:\Users\02483838\source\repos\StackKaanBedel\StackKaanBedel\obj\Debug\netcoreapp3.1\StackKaanBedel.genruntimeconfig.cache

@@ -10,8 +10,9 @@ namespace StackKaanBedel
 
         public static void Main(string[] args)
         {
+            Console.WriteLine("Hesaplanacak işlemi yazınız.");
             expressionString = Console.ReadLine().Trim().Replace("\"", string.Empty);
-            Console.WriteLine(Evaluate(expressionString));
+            Console.WriteLine("İşlemin sonucu: " + Evaluate(expressionString));
             Console.Read();
         }
 
@@ -49,7 +50,7 @@ namespace StackKaanBedel
                     }
                     ops.Pop();
                 }
-                else if (inputs[i] == '+' || inputs[i] == '-' || inputs[i] == '*' || inputs[i] == '/')
+                else if (inputs[i] == '+' || inputs[i] == '-' || inputs[i] == '*' || inputs[i] == '/' || inputs[i] == '%')
                 {
                     while (ops.Count > 0 && HasPrecedence(inputs[i], ops.Peek()))
                     {
@@ -71,7 +72,7 @@ namespace StackKaanBedel
             {
                 return false;
             }
-            if ((op1 == '*' || op1 == '/') && (op2 == '+' || op2 == '-'))
+            if ((op1 == '*' || op1 == '/' || op1 == '%') && (op2 == '+' || op2 == '-'))
             {
                 return false;
             }
@@ -88,12 +89,14 @@ namespace StackKaanBedel
                 case '+': return a + b;
                 case '-': return a - b;
                 case '*': return a * b;
+                case '%': return a % b;
                 case '/':
                     if (b == 0)
                     {
                         throw new NotSupportedException("Sıfıra Bölünemez");
                     }
                     return a / b;
+
             }
             return 0;
         }
